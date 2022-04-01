@@ -1,8 +1,3 @@
-def create
-  binding.pry
-  Plan.create(plan_params)
-  redirect_to action: :index
-end
 class CalendarsController < ApplicationController
 
   # １週間のカレンダーと予定が表示されるページ
